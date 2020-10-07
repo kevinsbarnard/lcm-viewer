@@ -45,4 +45,4 @@ class VideoSelectionDialog(QDialog):
                                                    filter='Videos (*.mp4)')
         if file_name:
             self.right_select.setText(file_name)
-            self.left_video = file_name
+            self.right_video = file_name
